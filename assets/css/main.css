@@ -273,6 +273,7 @@
     /* dis */
     /* padding-left: 26px; */
     /* padding-left: 22px; */
+    margin-bottom: 180px;
 }
 
 .container-menu-heading {
@@ -296,12 +297,14 @@
 }
 
 .container-menu-info {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .container-menu-list {
     list-style: none;
+    position: relative;
+    
     
     
 }
@@ -315,30 +318,125 @@
 
 }
 
+ 
+/*   */
 
-.container-menu-content-image-1 {
+/* .container-menu-content-image-1 {
     display : none;
+    position: absolute;
+    right: 0;
+    top:calc(0% - 100px);
 
 }
 
 .container-menu-content-image-2 {
-    display : none;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top:calc(0% - 100px);
 
 }
 
 .container-menu-content-image-3 {
-    display : none;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top:calc(0% - 100px);
 
 }
 
 .container-menu-content-image-4 {
-    display : none;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top:calc(0% - 100px);
 
 }
 
 .container-menu-content-image-5 {
-    display : none;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top:calc(0% - 270px);
 
+}
+
+.container-menu-link:hover .container-menu-content-image-1 {
+     visibility: hidden;
+    opacity: 0;
+} */
+
+/* .hover-1:hover ~ .container-menu-content-image-1 {
+   
+    visibility: visible;
+    opacity: 1;
+} */
+
+/* .hover-2:hover ~ .container-menu-content-image-2 {
+   
+    visibility: visible;
+    opacity: 1;
+}
+
+.hover-3:hover ~ .container-menu-content-image-3 {
+    display: block;
+}
+
+.hover-4:hover ~ .container-menu-content-image-4 {
+    display: block;
+}
+
+.hover-5:hover ~ .container-menu-content-image-5 {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.container-menu-content-image {
+    display: none;
+    position: absolute;
+    right: 0;
+    top:calc(0% - 100px);
+}
+
+.container-menu-content-image-5 {
+   
+    
+    top:calc(0% - 270px);
+
+}
+
+.container-menu-content-image-6 {
+    
+    position: absolute;
+    right: 0%;
+    top:calc(0% - 20px );
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.no-hidden {
+    width: 930px;
+   
+
+}
+
+.no-hidden img {
+    width: 100%;
+    
+}
+
+.container-menu-link:hover ~ .container-menu-content-image {
+    display: block;
+}
+
+.container-menu-item:hover ~ .container-menu-content-image-6 {
+    visibility: hidden;
+    opacity: 0;
 }
 
 
@@ -350,9 +448,9 @@
     margin: 8px ;
 } */
 
-.hover-1 ~ .container-menu-content-image-1 {
+/* .hover-1:hover .container-menu-content-image-1 {
     display: block;
-}
+} */
 
 
 
@@ -390,8 +488,67 @@
 } */
 
 
+/* Container retaurant */
+.container-restaurant-info {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 20px 20px;
+    justify-content: space-between;
+}
+.container-restaurant-list {
+    /* display: flex; */
+    /* justify-content: =; */
+    background-color: #f2f3f5;
+   padding : 10px 0; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 418px;
+    width: 500px;
+    box-shadow: 0.5px 0.5px #4d4444 ;
 
+}
 
+/* .container-restaurant-address { */
+   
+
+.container-restaurant-item {
+    display: flex;
+    align-items: center;
+    margin : 15px 20px;
+}
+
+.container-restaurant-list-img {
+    /* border-radius: 90%; */
+    width: 5vw ;
+    height: 5vw;
+
+}
+
+.container-restaurant-list-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.container-restaurant-list-info {
+    margin: 0 10px;
+}
+
+.container-restaurant-list-heading {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+}
+.container-restaurant-list-title {
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.container-restaurant-gg-map {
+    /* display: flex;
+    justify-content: end; */
+}
 
 
 
