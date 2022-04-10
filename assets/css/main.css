@@ -262,9 +262,15 @@
     
 }
 
+.container-menu-content {
+    /* display: flex;
+    justify-content: space-between; */
+}
+
 .container-menu {
 
     padding: 30px 0px;
+    /* dis */
     /* padding-left: 26px; */
     /* padding-left: 22px; */
 }
@@ -290,11 +296,13 @@
 }
 
 .container-menu-info {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-menu-list {
     list-style: none;
+    
     
 }
 
@@ -302,13 +310,49 @@
     margin: 40px 0;
     display: flex;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 
 }
+
+
+.container-menu-content-image-1 {
+    display : none;
+
+}
+
+.container-menu-content-image-2 {
+    display : none;
+
+}
+
+.container-menu-content-image-3 {
+    display : none;
+
+}
+
+.container-menu-content-image-4 {
+    display : none;
+
+}
+
+.container-menu-content-image-5 {
+    display : none;
+
+}
+
+
+/* .container-menu-content-image-1 {
+    display: none;
+} */
 
 /* .container-menu-item-img {
     margin: 8px ;
 } */
 
+.hover-1 ~ .container-menu-content-image-1 {
+    display: block;
+}
 
 
 
@@ -331,24 +375,49 @@
 
 .container-menu-link:hover {
     color: #7f7f92;
-    background: url(../img/dot-menu-hover.png) no-repeat;
+    background: url("../img/dot-menu-hover.png") no-repeat;
     background-size: 12px 12px;
+
 }
+
+/* .hover-1:hover  .container-menu-info {
+    display: block;
+} */
+/* + ~ > */
+
+/* .container-menu-info .hover-1:hover> .container-menu-info {
+    display: block;
+} */
+
+
+
+
 
 
 
 /* Footer */
 
-.grid-footer {
+.wrap-footer {
     height: 142px;
     width: 100%;
     background-color: #003c5b;
     display: flex;
+    
+    
 }
 
-.footer-info {
-    
+.grid-footer {
     display: flex;
+        /* align-items: center; */
+}
+
+
+.footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
     /* display: flex;
     justify-content: space-between; */
 }
@@ -359,15 +428,48 @@
 }
  
 .footer-tele-icon {
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
 }
 
 .footer-tele-num {
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
 }
 
+.footer-socials-link {
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    margin-right: 15px;
+    border-color:#003c5b;
+    border: 1px solid;
+    
+    border-radius: 100%;
+    background-color: white;
+    
+    
+}
+
+
+
+.footer-socials p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+
 .footer-socials-icon {
-    font-size: 5rem;
+    font-size: 2rem;
+    /* background-color: black; */
+    
+    color: #003c5b;
+    /*  */
+    vertical-align: middle;
+  
+
+    
 }
