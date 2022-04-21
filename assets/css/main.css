@@ -53,6 +53,11 @@
 
 }
 
+.header--menu-item-link {
+    text-decoration: none;
+    color: black;
+}
+
 .header--menu-item-active {
     
 }
@@ -630,3 +635,124 @@
 
     
 }
+
+
+/* Bếp Trưởng Gợi Ý */
+
+
+.container-btgy-img {
+
+}
+
+.container-btgy-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container-btgy-item {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 10px;
+  
+    width:15%;
+    box-shadow: 0 1px 1rem rgb(0 0 0 / 20%);
+
+}
+
+.container-btgy-item-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center
+    
+}
+
+.container-btgy-item-link i {
+    font-size: 5rem;
+    color: #7e92b9;
+}
+
+.container-btgy-item-link span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0;
+}
+
+/*  */
+
+.container-btgy-img-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-btgy-img-item {
+   /* // background: url(../img/menu-bg-1.png) no-repeat center center; */
+    background-color: rgba(201, 201, 201,0.5);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    width: 50vw;
+    height: 300px;
+    /* padding: 10px 40px; */
+    margin: 20px 0;
+   
+}
+
+.container-btgy-img-item-img {
+    display: block;
+    width: 40%;
+    height: 100%;
+    
+    /* margin: 0 20px; */
+}
+
+.container-btgy-img-item-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.container-btgy-img-item-context {
+    display: block;
+    width: 40%;
+}
+
+/* .container-btgy-img-item-heading {
+    margin-bottom: 20px;
+} */
+
+.container-btgy-img-item-heading a{
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: black;
+    
+}
+
+.container-btgy-img-item-text {
+    
+    color: rgba(3, 3, 3, 0.5);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 20px 0;
+    /* color: rgba(0, 0, 0, 0.2); */
+}
+
+.container-btgy-img-item-cost span {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border: black solid 1px;
+    padding: 7px 30px;
+}
+
+.container-btgy-img-item-heading:hover a {
+    text-decoration: underline;
+}
+
+

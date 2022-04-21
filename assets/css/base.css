@@ -47,3 +47,8 @@ html {
     }
     
 }
+
+/*  */
+.item-swap {
+    flex-direction: row-reverse;
+}
