@@ -52,3 +52,7 @@ html {
 .item-swap {
     flex-direction: row-reverse;
 }
+
+.container-img-in img {
+    width: 100%;
+}
