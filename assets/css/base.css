@@ -56,3 +56,28 @@ html {
 .container-img-in img {
     width: 100%;
 }
+
+
+
+/*  */
+.container-doan-item-2-list::-webkit-scrollbar {
+    width: 10px;               /* Chiều rộng vùng chứa scrollbar */
+  }
+.container-doan-item-2-list::-webkit-scrollbar-track {
+    background: white;        /* Màu nền ngoài của thanh scrollbar */
+  }
+.container-doan-item-2-list::-webkit-scrollbar-thumb {
+    background-color: white;    /* Màu của thanh cuộn (scroll thumb) */
+    border-radius: 5px;       /* Bo góc scroll thumb */
+    border: 2px solid white;  /* Không hỗ trợ padding, margin, transition nên dùng viền cùng màu nên để padding scroll thumb */
+}
+.container-doan-item-2-list::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Hiệu ứng di chuột đổi màu*/
+}
+.container-doan-item-2-list { /*cho Firefox*/
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.1) #ccc;   /* scroll thumb and track */
+}
+.container-doan-item-2-list-web:hover .container-doan-item-2-list::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.1); /* Hiệu ứng di chuột đổi màu*/
+}

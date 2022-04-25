@@ -675,8 +675,8 @@
 
 .container-btgy-item-link span {
     font-size: 1.6rem;
-    font-weight: bold;
-    color: black;
+    font-weight: 600;
+    color: #333;
     margin: 5px 0;
     font-style: italic;
     font-family: ui-serif;
@@ -860,4 +860,114 @@
     width: 0%;
     border-top: 3px solid;
 
+}
+
+/*  */
+/*  */
+.container-doan-list-text {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.container-doan-item-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    font-family: cursive;
+    padding: 0 15px;
+    border-left: #333 solid;
+}
+
+/*  */
+/*  */
+.container-doan-list {
+    height: 100%;
+   
+}
+
+.container-doan-item {
+    display: flex;
+    
+    margin: 30px 5px;
+    /* justify-content: flex-start; */
+}
+
+.container-doan-item-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    /* height: 100%; */
+    margin: 0 50px;
+}
+.container-doan-item-1-heaer {
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 20px 0;
+    font-family: monospace;
+}
+
+.container-doan-item-1-img {
+    /* width: 50%;
+    height: 100%;
+    overflow: hidden; */
+
+}
+
+.container-doan-item-1-img img {
+    width: 100%;
+    height: 100%;
+}
+.container-doan-item-2-list-web {
+    width: 60%;
+    height: 350px;
+}
+
+.container-doan-item-2-list {
+    width: 100%;
+    height: 100%;
+    padding-right: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+.container-doan-item-2-item {
+    margin: 20px 0;
+    position: relative;
+}
+
+.container-doan-item-2-item-header {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #333;
+    font-family: cursive;
+
+
+
+}
+
+.container-doan-item-2-item-header a {
+    text-decoration: none;
+    color: #333;
+   
+}
+
+.container-doan-item-2-item-text {
+    
+    color: #333;
+    font-size: 1.3rem;
+    padding: 20px 0;
+    border-bottom: 1px #333 solid;
+}
+
+.container-doan-item-2-item-price {
+    position: absolute;
+    font-size: 1.7rem;
+    color: #414142;
+    font-weight: 100;
+    top: 88%;
+    right: -31%;
 }
